@@ -1,6 +1,6 @@
 # 수박게임
 
-## https://watermelon.shinyou.ng
+## https://hancreate.github.io/watermelon-han
 
 간단하고, 빠르고, 쉬운 커스텀이 가능한 수박게임입니다.
 
