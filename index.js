@@ -155,11 +155,11 @@
       if(nextSize.length < 2 ) {
         if ( nextSize.length === 1 ){
           for (let i = 0; i <  1 ; i++) {
-            nextSize.push(Math.floor(Math.random() * 5) + 1);
+            nextSize.push(Math.floor(Math.random() * 3) + 1);
           }
         }else{
           for (let i = 0; i < 2 ; i++) {
-            nextSize.push(Math.floor(Math.random() * 5) + 1);
+            nextSize.push(Math.floor(Math.random() * 3) + 1);
           }
         }
       }
@@ -203,16 +203,16 @@
       Body.setVelocity(ball, { x: 0, y: (100 / fps) * 5.5 });
       ball = null;
 
-      newSize = Math.floor(Math.random() * 5) + 1;
+      newSize = Math.floor(Math.random() * 3) + 1;
       console.log(newSize);
       if(nextSize.length < 2 ) {
         if ( nextSize.length === 1 ){
           for (let i = 0; i <  1 ; i++) {
-            nextSize.push(Math.floor(Math.random() * 5) + 1);
+            nextSize.push(Math.floor(Math.random() * 3) + 1);
           }
         }else{
           for (let i = 0; i < 2 ; i++) {
-            nextSize.push(Math.floor(Math.random() * 5) + 1);
+            nextSize.push(Math.floor(Math.random() * 3) + 1);
           }
         }
       }
@@ -417,7 +417,7 @@
     }
     for (let i = 0; i < 2; i++) {
       if(nextSize.length < 2 ) {
-        nextSize[i] = Math.floor(Math.random() * 5) + 1;
+        nextSize[i] = Math.floor(Math.random() * 3) + 1;
       }
     }
     createNewBall(1);
